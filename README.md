@@ -1,4 +1,4 @@
-# ollama
+# Ollama with GPU and Opem WebUI / Anything LLM
 
 ## Install Nvidia driver in debian
 
@@ -76,3 +76,7 @@ docker exec -it ollama bash
 nvidia-smi
 ```
  
+## Access the UIs
+Open Web UI : http://hostname:3000
+Anything LLM : http://hostname:3001
+
