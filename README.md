@@ -59,7 +59,20 @@ sudo apt-get install -y nvidia-container-toolkit
 sudo reboot
 ```
 
+## Up and run Ollama with Open WebUI / Anything LLM
+
+### Create container
+```
+docker compose up -d
+```
+
+### Attach to container
+```
+docker exec -it ollama bash
+```
+
 ### Verify inside container
 ```
 nvidia-smi
 ```
+ 
